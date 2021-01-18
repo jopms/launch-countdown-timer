@@ -24,11 +24,26 @@ background-color:hsl(234, 17%, 12%)
     align-items: center;
     
 }
+#days{
+    font-size: 30px;
+}
+
+#hours{
+    font-size: 30px;
+}
+
+#minutes{
+    font-size: 30px;
+}
+
+#seconds{
+    font-size: 30px;
+}
 
 .clock{
     display: flex;
     justify-content: space-between;
-    width: 600px;
+    width: 400px;
     font-size: 10px;
     padding: 120px;
     color: hsl(237, 18%, 59%);
