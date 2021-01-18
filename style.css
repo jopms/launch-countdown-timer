@@ -1,0 +1,51 @@
+* {
+margin: 0;
+border: 0;
+font-family: 'Red Hat Text', sans-serif;
+background-color:hsl(234, 17%, 12%)
+}
+
+.container{
+    
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: hsl(0, 0%, 100%);
+    padding: 100px;
+}
+
+.clock-wrap{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+}
+
+.clock{
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    font-size: 10px;
+    padding: 120px;
+    color: hsl(237, 18%, 59%);
+}
+
+.footer-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer{
+    display: flex;
+    width: 350px;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+
+
