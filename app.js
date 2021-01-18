@@ -7,5 +7,11 @@ var minutesLeft = Math.floor((timeLeft/60)%(60));
 var hoursLeft = Math.floor((timeLeft/60/60)%60);
 var daysLeft = Math.floor(timeLeft/60/60/24);
 
+function changeHTML () {
+    document.getElementById("days").innerHTML = daysLeft;
+    document.getElementById("hours").innerHTML = hoursLeft;
+    document.getElementById("minutes").innerHTML = minutesLeft;
+    document.getElementById("seconds").innerHTML = secondsLeft;
+}
 
-
+changeHTML ();
