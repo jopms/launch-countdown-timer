@@ -14,8 +14,7 @@ html{
     background-position: bottom;
     background-repeat: no-repeat;
     background-position-x: 85%;
-    background-size: 350%,auto;
-    
+    background-size: 380%,auto;
 }
     
 .header{
@@ -23,16 +22,15 @@ html{
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-size: 12px;
+    font-size: 10px;
     color: hsl(0, 0%, 100%);
-    padding: 150px 0px 60px;
+    padding: 110px 20px 60px;
 }
 
 .clock-wrap{
     display: flex;
     justify-content:center;
     align-items: center;
-    
 }
 
 
@@ -63,7 +61,6 @@ html{
     color: hsl(345, 95%, 68%);
     border-radius: 5px;
     box-shadow: 0px 8px 5px black, 0px 0px 0px transparent;
-    
 }
 
 
@@ -81,7 +78,6 @@ html{
     width: 300px;
     font-size: 15px;
     color: hsl(237, 18%, 59%);
-    
 }
 
 .footer-wrap{
@@ -94,10 +90,10 @@ html{
     position: absolute;
     bottom: 60px;
     display: flex;
-    width: 350px;
+    width: 270px;
     justify-content: space-between;
-    
     color: white;
+    font-size: 13px;
 }
 
 .attribution{
@@ -109,9 +105,8 @@ html{
     font-style: normal;
     text-decoration: none;
     position: absolute;
-    bottom: 10px;
-   
-    
+    bottom: 10px; 
+    font-size: 7px
 }
 a:link{
     text-decoration: none;
@@ -125,17 +120,191 @@ h1{
 }
 h2{
     letter-spacing: 2px;
-
 }
+
+
 
 @media screen and (orientation:landscape) {
     .header{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
         font-size: 12px;
+        padding: 60px 170px 40px;
+    }
+    html{
+        background-position-x: 90%;
+        background-size: 125%,auto;
+    }
+
+    .footer{
+        position: absolute;
+        bottom: 60px;
+        display: flex;
+        width: 220px;
+        justify-content: space-between;
+        color: white;
+        font-size: 10px;
+    }
+
+    .attribution{
+        font-size: 8px;
+        bottom: 10px; 
+    }
+
+}
+@media only screen and (orientation:portrait) and (min-width: 370px){
+    .header{
+        font-size: 12px;
+        padding: 120px 0px 90px;
+    }
+
+    html{
+        background-position-x: 90%;
+        background-size: 450%,auto;
+    }
+
+    .number{
+        font-size: 28px;
+        padding: 10px;
+        min-width: 46px;
+    }
+
+    .clock{
+        display: flex;
+        justify-content: space-between;
+        width: 330px;
+        font-size: 15px;
+    }
+
+    #text{
+        font-size: 6px;
+    }
+
+    .footer{
+        bottom: 90px;
+        width: 300px;
+        font-size: 14px;
+    }
+
+   
+}
+
+@media only screen and (orientation:portrait) and (min-width: 520px){
+    .header{
+        font-size: 18px;
+        padding: 120px 0px 60px;
+    }
+
+    html{
+        background-position-x: 90%;
+        background-size: 300%,auto;
+    }
+
+    .number{
+        font-size: 45px;
+        padding: 12px;
+        min-width: 65px;
+    }
+
+    .clock{
+        display: flex;
+        justify-content: space-between;
+        width: 460px;
+        font-size: 15px;
+    }
+
+    #text{
+        font-size: 6px;
+    }
+}
+
+@media only screen and (orientation:portrait) and (min-width: 768px){
+    .header{
+        font-size: 29px;
         color: hsl(0, 0%, 100%);
-        padding: 50px 0px 60px;
+        padding: 120px 0px 90px;
+    }
+
+    html{
+        background-position-x: 90%;
+        background-size: 300%,auto;
+    }
+
+    .number{
+        font-size: 70px;
+        padding: 12px;
+        min-width: 100px;
+    }
+
+    .clock{
+        display: flex;
+        justify-content: space-between;
+        width: 630px;
+        font-size: 15px;
+    }
+
+    #text{
+        font-size: 10px;
+        padding: 5px;
+    }
+    .attribution{
+        font-size: 15px;
+        bottom: 10px; 
+    }
+
+    .footer{
+        position: absolute;
+        bottom: 90px;
+        display: flex;
+        width: 600px;
+        justify-content: space-between;
+        color: white;
+        font-size: 23px;
+    }
+}
+
+@media only screen and (orientation:portrait) and (min-width: 1024px){
+    .header{
+        font-size: 38px;
+        color: hsl(0, 0%, 100%);
+        padding: 180px 0px 160px;
+    }
+
+    html{
+        background-position-x: 90%;
+        background-size: 300%,auto;
+    }
+
+    .number{
+        font-size: 90px;
+        padding: 20px;
+        min-width: 140px;
+    }
+
+    .clock{
+        display: flex;
+        justify-content: space-between;
+        width: 870px;
+    }
+
+    #text{
+        font-size: 13px;
+        padding: 7px;
+    }
+    .attribution{
+        font-size: 20px;
+        bottom: 15px; 
+    }
+
+    .footer{
+        bottom: 130px;
+        width: 700px;
+        font-size: 28px;
+    }
+
+    h1{
+        letter-spacing: 7px;
+    }
+
+    h2{
+        letter-spacing: 7px;
     }
 }
