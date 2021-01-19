@@ -5,13 +5,13 @@ function addZero (time){
 }
 
 function changeHTML () {
-    var currentDate = Date.now() / 1000; //to give seconds
-    var birthdayEsteves = 1632960000; //30 Set 
+    var currentDate = Date.now() 
+    var birthdayEsteves = 1628035200000; //4 august
     var timeLeft = birthdayEsteves - currentDate;
-    var secondsLeft = Math.floor(timeLeft % 60);
-    var minutesLeft = Math.floor((timeLeft/60)%(60));
-    var hoursLeft = Math.floor((timeLeft/60/60)%60);
-    var daysLeft = Math.floor(timeLeft/60/60/24);
+    var secondsLeft = Math.floor((timeLeft % (1000 * 60)) / 1000);
+    var minutesLeft = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
+    var hoursLeft = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var daysLeft = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
     document.getElementById("days").innerHTML = daysLeft;
     document.getElementById("hours").innerHTML = addZero(hoursLeft);
     document.getElementById("minutes").innerHTML = addZero(minutesLeft);
