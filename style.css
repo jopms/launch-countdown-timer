@@ -87,13 +87,10 @@ html{
 }
 
 .footer{
-    position: absolute;
-    bottom: 60px;
     display: flex;
-    width: 270px;
-    justify-content: space-between;
-    color: white;
-    font-size: 13px;
+    justify-content: space-around;
+    bottom: 60px;
+    width: 200px;
 }
 
 .attribution{
@@ -136,24 +133,24 @@ h2{
 
     .footer{
         position: absolute;
-        bottom: 60px;
-        display: flex;
-        width: 220px;
+        bottom: 40px;
+        width: 150px;
         justify-content: space-between;
-        color: white;
-        font-size: 10px;
     }
 
     .attribution{
         font-size: 8px;
         bottom: 10px; 
     }
+    #text{
+        font-size: 5px;
+    }
 
 }
 @media only screen and (orientation:portrait) and (min-width: 370px){
     .header{
         font-size: 12px;
-        padding: 120px 0px 90px;
+        padding: 120px 0px 130px;
     }
 
     html{
@@ -179,9 +176,9 @@ h2{
     }
 
     .footer{
-        bottom: 90px;
-        width: 300px;
-        font-size: 14px;
+        position: absolute;
+        bottom: 60px;
+        width: 120px;
     }
 
    
@@ -248,19 +245,16 @@ h2{
         width: 600px;
     }
 
+    .footer{
+        bottom:60px;
+    }
     #text{
         font-size: 8px;
         padding:5px;
     }
     .attribution{
-        font-size: 10px;
+        font-size: 11px;
         bottom: 15px; 
-    }
-
-    .footer{
-        bottom: 80px;
-        width: 350px;
-        font-size: 14px;
     }
 
     h1{
@@ -352,8 +346,7 @@ h2{
 
     .footer{
         bottom: 130px;
-        width: 700px;
-        font-size: 28px;
+        width: 200px;
     }
 
     h1{
@@ -408,8 +401,8 @@ h2{
 
     .footer{
         bottom: 80px;
-        width: 350px;
-        font-size: 14px;
+        width: 200px;
+        
     }
 
     h1{
@@ -457,14 +450,13 @@ h2{
         padding: 15px;
     }
     .attribution{
-        font-size: 10px;
+        font-size: 11px;
         bottom: 15px; 
     }
 
     .footer{
-        bottom: 100px;
-        width: 350px;
-        font-size: 14px;
+        width: 200px;
+        
     }
 
     h1{
