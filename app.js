@@ -13,10 +13,10 @@ function changeHTML () {
     var hoursLeft = Math.floor((timeLeft/60/60)%60);
     var daysLeft = Math.floor(timeLeft/60/60/24);
     document.getElementById("days").innerHTML = daysLeft;
-    document.getElementById("shadow-number").innerHTML = daysLeft;
     document.getElementById("hours").innerHTML = addZero(hoursLeft);
     document.getElementById("minutes").innerHTML = addZero(minutesLeft);
     document.getElementById("seconds").innerHTML = addZero(secondsLeft);
+    document.getElementById("shadow-number").innerHTML = daysLeft;
 }
 
 
