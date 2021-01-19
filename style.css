@@ -508,3 +508,11 @@ h2{
     #text{
         font-size: 6px;
     }
+
+    @media screen and (orientation:landscape) and  (min-width: 620px){
+        .header{
+            font-size: 10px;
+            padding: 50px 180px 40px;
+
+        }
+    }
