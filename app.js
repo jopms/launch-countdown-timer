@@ -16,7 +16,10 @@ function changeHTML () {
     document.getElementById("hours").innerHTML = addZero(hoursLeft);
     document.getElementById("minutes").innerHTML = addZero(minutesLeft);
     document.getElementById("seconds").innerHTML = addZero(secondsLeft);
-    document.getElementById("shadow-number").innerHTML = daysLeft;
+    document.getElementById("shadow-days").innerHTML = daysLeft;
+    document.getElementById("shadow-hours").innerHTML = addZero(hoursLeft);
+    document.getElementById("shadow-minutes").innerHTML = addZero(minutesLeft);
+    document.getElementById("shadow-seconds").innerHTML = addZero(secondsLeft);
 }
 
 
