@@ -128,4 +128,14 @@ h2{
 
 }
 
-
+@media screen and (orientation:landscape) {
+    .header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 12px;
+        color: hsl(0, 0%, 100%);
+        padding: 50px 0px 60px;
+    }
+}
