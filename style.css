@@ -482,3 +482,29 @@ h2{
         letter-spacing: 7px;
     }
 }
+
+
+@media screen and (orientation:landscape) and  (min-width: 500px){
+    .header{
+        font-size: 10px;
+        padding: 30px 120px 30px;
+    }
+    html{
+        background-position-x: 90%;
+        background-size: 125%,auto;
+    }
+
+    .footer{
+        position: absolute;
+        bottom: 35px;
+        width: 110px;
+        justify-content: space-between;
+    }
+
+    .attribution{
+        font-size: 8px;
+        bottom: 10px; 
+    }
+    #text{
+        font-size: 6px;
+    }
